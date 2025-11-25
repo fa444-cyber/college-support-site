@@ -1,0 +1,21 @@
+/* style.css — Custom styles for College Support Hub */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #004080;
+}
+
+.navbar a {
+  color: white !important;
+}
+
+footer {
+  background-color: #004080;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
