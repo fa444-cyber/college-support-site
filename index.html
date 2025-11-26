@@ -9,7 +9,104 @@
 </head>
 <body>
 
-  <!-- Your navbar, content, and footer go here -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">College Support Hub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="academic.html">Academic Planning</a></li>
+          <li class="nav-item"><a class="nav-link" href="financial.html">Financial Aid</a></li>
+          <li class="nav-item"><a class="nav-link" href="wellness.html">Emotional Wellness</a></li>
+          <li class="nav-item"><a class="nav-link" href="identity.html">Digital Identity</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="homepageCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/academic.jpg" class="d-block w-100" alt="Academic Planning">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Plan Your Courses</h5>
+          <p>Map your academic journey with clarity.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/financial.jpg" class="d-block w-100" alt="Financial Aid">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Financial Support</h5>
+          <p>Scholarships, budgeting, and emergency resources.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/wellness.jpg" class="d-block w-100" alt="Emotional Wellness">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Emotional Wellness</h5>
+          <p>Set boundaries and recover from burnout.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#homepageCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#homepageCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- Resource Cards -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Academic Planning</h5>
+            <p class="card-text">Switch majors, align athletics, and map your courses.</p>
+            <a href="academic.html" class="btn btn-outline-primary">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Financial Aid</h5>
+            <p class="card-text">Scholarship tips, emergency resources, and budget planners.</p>
+            <a href="financial.html" class="btn btn-outline-primary">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Emotional Wellness</h5>
+            <p class="card-text">Boundaries, burnout recovery, and faith-rooted affirmations.</p>
+            <a href="wellness.html" class="btn btn-outline-primary">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Digital Identity</h5>
+            <p class="card-text">Curate profiles, set privacy, and express your values.</p>
+            <a href="identity.html" class="btn btn-outline-primary">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="mt-5 bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Fayada Adam. <a href="#" class="text-white">Terms of Service</a> | <a href="#" class="text-white">Privacy Statement</a></p>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
